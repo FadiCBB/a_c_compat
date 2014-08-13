@@ -3,7 +3,7 @@ waituntil{!isnil "cse_gui"};
 
 CSE_ICON_PATH = "cse\cse_gui\radialmenu\data\icons\";
 
-cse_cbb_weponback = {
+ac_wepononback = {
 	[_this] call cse_fnc_Debug;
 	private ["_subMenus"];
 		_subMenus = [];
@@ -13,6 +13,6 @@ cse_cbb_weponback = {
 };
 
 _entries = [
-	["On Back", { true }, CSE_ICON_PATH + "icon_magazines.paa", cse_cbb_weponback, "Puts your primary weapon on your back."]
+	["On Back", { true }, CSE_ICON_PATH + "icon_magazines.paa", ac_wepononback, "Puts your primary weapon on your back."]
 ];
 ["ActionMenu","custom_actions", _entries ] call cse_fnc_addMultipleEntriesToRadialCategory_F;

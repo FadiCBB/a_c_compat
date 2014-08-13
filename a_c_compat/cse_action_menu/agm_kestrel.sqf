@@ -1,7 +1,7 @@
 if (isDedicated) exitwith{};
 waituntil{!isnil "cse_gui"};
 
-cse_agm_openkestrel = {
+ac_agm_openkestrel = {
 	[_this] call cse_fnc_Debug;
 	private ["_subMenus"];
 		_subMenus = [];
@@ -12,11 +12,11 @@ cse_agm_openkestrel = {
 };
 
 _entries = [
-	["Open Kestrel", { ("AGM_ItemKestrel" in items player) && (!underwater player) && (!AGM_isKestrel) }, "\AGM_Wind\data\4500NV.paa", cse_agm_openkestrel, "Opens your Kestrel."]
+	["Open Kestrel", { ("AGM_ItemKestrel" in items player) && (!underwater player) && (!AGM_isKestrel) }, "\AGM_Wind\data\4500NV.paa", ac_agm_openkestrel, "Opens your Kestrel."]
 ];
 ["ActionMenu","equipment", _entries ] call cse_fnc_addMultipleEntriesToRadialCategory_F;
 
-cse_agm_closekestrel = {
+ac_agm_closekestrel = {
 	[_this] call cse_fnc_Debug;
 	private ["_subMenus"];
 		_subMenus = [];
@@ -27,6 +27,6 @@ cse_agm_closekestrel = {
 };
 
 _entries = [
-	["Close Kestrel", { AGM_isKestrel }, "\AGM_Wind\data\4500NV.paa", cse_agm_closekestrel, "Puts your Kestrel away."]
+	["Close Kestrel", { AGM_isKestrel }, "\AGM_Wind\data\4500NV.paa", ac_agm_closekestrel, "Puts your Kestrel away."]
 ];
 ["ActionMenu","equipment", _entries ] call cse_fnc_addMultipleEntriesToRadialCategory_F;

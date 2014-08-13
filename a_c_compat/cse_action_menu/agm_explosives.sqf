@@ -1,7 +1,7 @@
 if (isDedicated) exitwith{};
 waituntil{!isnil "cse_gui"};
 
-cse_agm_placeexplosives = {
+ac_agm_placeexplosives = {
 	[_this] call cse_fnc_Debug;
 	private ["_subMenus"];
 		_subMenus = [];
@@ -12,11 +12,11 @@ cse_agm_placeexplosives = {
 };
 
 _entries = [
-	["Place", { (vehicle player == player) and {[player] call AGM_Explosives_fnc_hasExplosives} }, "\a3\weapons_f\data\UI\m_satchel_ca.paa", cse_agm_placeexplosives, "Places explosives."]
+	["Place", { (vehicle player == player) and {[player] call AGM_Explosives_fnc_hasExplosives} }, "\a3\weapons_f\data\UI\m_satchel_ca.paa", ac_agm_placeexplosives, "Places explosives."]
 ];
 ["ActionMenu","custom_actions", _entries ] call cse_fnc_addMultipleEntriesToRadialCategory_F;
 
-cse_agm_detexplosives = {
+ac_agm_detexplosives = {
 	[_this] call cse_fnc_Debug;
 	private ["_subMenus"];
 		_subMenus = [];
@@ -27,11 +27,11 @@ cse_agm_detexplosives = {
 };
 
 _entries = [
-	["Detonate", { [player] call AGM_Explosives_fnc_hasPlacedExplosives and {('AGM_Clacker' in (items player))} }, "\a3\weapons_f\data\UI\m_satchel_ca.paa", cse_agm_detexplosives, "Detonate explosives."]
+	["Detonate", { [player] call AGM_Explosives_fnc_hasPlacedExplosives and {('AGM_Clacker' in (items player))} }, "\a3\weapons_f\data\UI\m_satchel_ca.paa", ac_agm_detexplosives, "Detonate explosives."]
 ];
 ["ActionMenu","custom_actions", _entries ] call cse_fnc_addMultipleEntriesToRadialCategory_F;
 
-cse_agm_defexplosives = {
+ac_agm_defexplosives = {
 	[_this] call cse_fnc_Debug;
 	private ["_subMenus"];
 		_subMenus = [];
@@ -42,6 +42,6 @@ cse_agm_defexplosives = {
 };
 
 _entries = [
-	["Defuse", { [player] call AGM_Explosives_fnc_CanDefuse }, "\a3\weapons_f\data\UI\m_satchel_ca.paa", cse_agm_defexplosives, "Defuse explosives."]
+	["Defuse", { [player] call AGM_Explosives_fnc_CanDefuse }, "\a3\weapons_f\data\UI\m_satchel_ca.paa", ac_agm_defexplosives, "Defuse explosives."]
 ];
 ["ActionMenu","custom_actions", _entries ] call cse_fnc_addMultipleEntriesToRadialCategory_F;

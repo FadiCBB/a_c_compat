@@ -3,7 +3,7 @@ waituntil{!isnil "cse_gui"};
 
 CSE_ICON_PATH = "cse\cse_gui\radialmenu\data\icons\";
 
-cse_agm_carrylog = {
+ac_agm_carrylog = {
 	[_this] call cse_fnc_Debug;
 	private ["_subMenus"];
 		_subMenus = [];
@@ -20,6 +20,6 @@ _entries = [
 		(((_this select 1) iskindof "Land_CanisterFuel_F") OR	((_this select 1) iskindof "ThingX"))
 		&& (isNull ([(_this select 0)] call cse_fnc_getCarriedObj)) && (((_this select 1) distance player) < 4))
 		&& !(((_this select 1) iskindof "ReammoBox") OR	((_this select 1) iskindof "ReammoBox_F"))
-	}, CSE_ICON_PATH + "icon_open_dialog.paa", cse_agm_carrylog, "Carries a logistic object."]
+	}, CSE_ICON_PATH + "icon_open_dialog.paa", ac_agm_carrylog, "Carries a logistic object."]
 ];
 ["ActionMenu","interaction", _entries ] call cse_fnc_addMultipleEntriesToRadialCategory_F;
