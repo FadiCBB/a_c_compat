@@ -1,7 +1,3 @@
-// Name: Drop Ruck
-// Type: Self Interaction
-// Makes a player drop their backpack, useful for when you hit contact and need to bound and operate quickly.
-
 if (isDedicated) exitwith{};
 waituntil{!isnil "cse_gui"};
 

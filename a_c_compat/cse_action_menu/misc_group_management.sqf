@@ -1,7 +1,3 @@
-// Name: Group Management
-// Type: Interaction and Self Interaction
-// The ability to leave, join or take control of groups. The conditions for this could be better but it is what it is.
-
 if (isDedicated) exitwith{};
 waituntil{!isnil "cse_gui"};
 

@@ -1,8 +1,3 @@
-// Name: Weapon On Back
-// Type: Self interaction
-// Makes a player put their weapon on their back. Putting weapon on back like this has a different set of movements.
-
-
 if (isDedicated) exitwith{};
 waituntil{!isnil "cse_gui"};
 

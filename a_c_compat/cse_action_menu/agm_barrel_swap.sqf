@@ -1,7 +1,3 @@
-// Name: AGM Barrel Swap
-// Type: Self interaction
-// Calls the AGM function that allows you to swap your barrel
-
 if (isDedicated) exitwith{};
 waituntil{!isnil "cse_gui"};
 

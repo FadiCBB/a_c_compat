@@ -1,6 +1,5 @@
 // This all uses the interaction menu style of CSE pre-3.0
 
-
 // Barrel Swap
 
 ["SelfInteraction","Swap Barrel",{ ("AGM_SpareBarrel" in items player) && (getNumber (configFile >> 'CfgWeapons' >> currentWeapon player >> 'AGM_Overheating_allowSwapBarrel') == 1) },{
@@ -43,3 +42,41 @@
 	closeDialog 0;
 	player action ['SwitchWeapon', vehicle player, vehicle player, 99];
 },302] call cse_fnc_gui_addMenuEntry;
+
+// Gestures
+
+["SelfInteraction","Gestures > ",{true},{
+	_subMenus = [
+	 	["Advance",{canStand player},{
+			player playActionNow 'gestureAdvance';
+		}],
+	  	["Go",{canStand player},{
+			player playActionNow (['gestureGo', 'gestureGoB'] select (floor random 2));
+		}],
+	  	["Follow",{canStand player},{
+			player playActionNow 'gestureFollow';
+		}],
+	  	["Point",{canStand player},{
+			player playActionNow 'gesturePoint';
+		}],
+	  	["Up",{canStand player},{
+			player playActionNow 'gestureUp';
+		}],
+	  	["Cover Me",{canStand player},{
+			player playActionNow 'gestureCover';
+		}],
+	  	["Cease Fire",{canStand player},{
+			player playActionNow 'gestureCeaseFire';
+		}],
+	  	["Yes",{canStand player},{
+			player playActionNow (['gestureYes', 'gestureNod'] select (floor random 2));
+		}],
+	  	["No",{canStand player},{
+			player playActionNow 'gestureNo';
+		}],
+	  	["Hi",{canStand player},{
+			player playActionNow (['gestureHi', 'gestureHiB', 'gestureHiC'] select (floor random 3));
+		}]
+ 	];
+ 	["Gestures",_this select 2, _subMenus] call cse_fnc_gui_displaySubMenuButtons;
+ },301] call cse_fnc_gui_addMenuEntry;
