@@ -80,3 +80,19 @@
  	];
  	["Gestures",_this select 2, _subMenus] call cse_fnc_gui_displaySubMenuButtons;
  },301] call cse_fnc_gui_addMenuEntry;
+
+
+/*
+
+// Note: This was never actually tested.
+
+
+ ["SelfInteraction","Put in earplugs",{ (!AGM_EarPlugsIn) && ('AGM_EarBuds' in items player) && (!alive player) && (!(player getVariable ['AGM_Unconscious', false])) },{
+	 call AGM_Hearing_fnc_putInEarplugs
+ },100] call cse_fnc_gui_addMenuEntry;
+
+  ["SelfInteraction","Take out earplugs",{ (AGM_EarPlugsIn) && (!alive player) && (!(player getVariable ['AGM_Unconscious', false])) },{
+	 call AGM_Hearing_fnc_removeEarplugs
+ },100] call cse_fnc_gui_addMenuEntry;
+
+*/

@@ -3,7 +3,7 @@ waituntil{!isnil "cse_gui"};
 
 CSE_ICON_PATH = "cse\cse_gui\radialmenu\data\icons\";
 
-ac_grp_takelead = {
+ac_misc_grp_takelead = {
 	[_this] call cse_fnc_Debug;
 	private ["_subMenus"];
 		_subMenus = [];
@@ -14,6 +14,6 @@ ac_grp_takelead = {
 };
 
 _entries = [
-	["Take Lead", { (count (units group player) > 1) && (leader group player != player) }, CSE_ICON_PATH + "icon_toggle_self.paa", ac_grp_takelead, "Assets your dominance over the pack."]
+	["Take Lead", { (count (units group player) > 1) && (leader group player != player) }, CSE_ICON_PATH + "icon_toggle_self.paa", ac_misc_grp_takelead, "Assets your dominance over the pack."]
 ];
 ["ActionMenu","group_actions", _entries ] call cse_fnc_addMultipleEntriesToRadialCategory_F;
