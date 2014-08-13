@@ -10,7 +10,7 @@ class CfgPatches
 		weapons[] = {};
 		requiredVersion = 0.1;
 		requiredAddons[] = {"cse_main", "cse_gui", "cse_f_eh", "AGM_Core"};
-		author[] = {"Fadi"};
+		author[] = {};
 		authorUrl = "https://github.com/FadiCBB/a_c_compat";
 	};
 };
