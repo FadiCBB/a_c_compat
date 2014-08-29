@@ -18,28 +18,40 @@ class CfgPatches
 class Extended_PostInit_EventHandlers
 {
 
-	// Required Component: AGM_Overheating
-	class agm_barrel_swap
-	{
-		clientInit = "0 = [] spawn compile preProcessFileLineNumbers '\a_c_compat\cse_action_menu\agm_barrel_swap.sqf'";
-	};
-
-	// Required Component: AGM_Wind
-	class agm_kestrel
-	{
-		clientInit = "0 = [] spawn compile preProcessFileLineNumbers '\a_c_compat\cse_action_menu\agm_kestrel.sqf'";
-	};
-
 	// Required Component: AGM_Explosives
 	class agm_explosives
 	{
 		clientInit = "0 = [] spawn compile preProcessFileLineNumbers '\a_c_compat\cse_action_menu\agm_explosives.sqf'";
 	};
 
+	// Required Component: AGM_Interaction
+	class agm_team_colors
+	{
+		clientInit = "0 = [] spawn compile preProcessFileLineNumbers '\a_c_compat\cse_action_menu\agm_team_colors.sqf'";
+	};
+
 	// Required Component: AGM_Logistics
 	class agm_logistics
 	{
 		clientInit = "0 = [] spawn compile preProcessFileLineNumbers '\a_c_compat\cse_action_menu\agm_logistics.sqf'";
+	};
+
+	// Required Component: AGM_Overheating
+	class agm_barrel_swap
+	{
+		clientInit = "0 = [] spawn compile preProcessFileLineNumbers '\a_c_compat\cse_action_menu\agm_barrel_swap.sqf'";
+	};
+
+	// Required Component: AGM_Overheating
+	class agm_check_temp
+	{
+		clientInit = "0 = [] spawn compile preProcessFileLineNumbers '\a_c_compat\cse_action_menu\agm_check_temp.sqf'";
+	};
+
+	// Required Component: AGM_Wind
+	class agm_kestrel
+	{
+		clientInit = "0 = [] spawn compile preProcessFileLineNumbers '\a_c_compat\cse_action_menu\agm_kestrel.sqf'";
 	};
 
 	// Required Component: None
