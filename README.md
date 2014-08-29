@@ -18,6 +18,12 @@ Included components:
     Required Component: AGM_Overheating
 
     Description: The ability to swap your barrel for a spare through the CSE menu.
+    
+  - **Check Temperature**
+
+    Required Component: AGM_Overheating
+
+    Description: The ability to check your weapons temperature through the CSE menu.
 
   - **Kestrel**
 
@@ -30,6 +36,14 @@ Included components:
     Required Component: AGM_Explosives
 
     Description: The ability to use the new AGM explosives system through the CSE menu.
+    
+  - **Team Colors**
+
+    Required Component: AGM_Interaction
+
+    Description: Allows you to set colors for your self or others in your team through the CSE menu.
+    
+    Note: Like in Arma 2, squad leads cannot color themselves. Using this however other team members can color the SL.
 
   - **Logistics**
 
