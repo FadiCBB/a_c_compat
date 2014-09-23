@@ -13,7 +13,7 @@ Not all AGM features will be covered. Again, if you want to contribute anything 
 To-do:
 ---------------------------
 
-  - Break it up from one PBO into several parts to better reflect the principles of modularity that both embrace
+  - 
 
 Included components:
 ---------------------------
