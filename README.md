@@ -10,6 +10,11 @@ Because of the importance of the CSE medical menu, I've made some AGM features a
 
 Not all AGM features will be covered. Again, if you want to contribute anything missing please do. That's the reason it's on Github and what not.
 
+To-do:
+---------------------------
+
+  - Break it up from one PBO into several parts to better reflect the principles of modularity that both embrace
+
 Included components:
 ---------------------------
 
@@ -75,6 +80,8 @@ Included components:
 
 Ideas for any contributers:
 ---------------------------
-- AGM_Hearing and putting earplugs in?
-- Applying CSE unconscious state to AGM_GForces?
-- Shoulder tapping?
+
+  - Making the earplugs from AGM_Hearing availible in the CSE menu?
+  - Applying CSE unconscious state to AGM_GForces?
+  - Finishing logistics (menu more specifically the AGM cargo menu itself as well as the locational repair system)?
+  - Doing the opposite, making some CSE modules (medical, rations) availible in the AGM menu format?
