@@ -15,7 +15,7 @@ class Extended_PostInit_EventHandlers
 {
 	class a_c_old
 	{
-		clientInit = "0 = [] spawn compile preProcessFileLineNumbers '\a_c_compat\cse_action_menu\old_style.sqf'";
+		clientInit = "0 = [] spawn compile preProcessFileLineNumbers '\a_c_old\cse_action_menu\old_style.sqf'";
 	};
 };
 
