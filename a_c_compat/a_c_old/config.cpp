@@ -13,8 +13,6 @@ class CfgPatches
 
 class Extended_PostInit_EventHandlers
 {
-
-	// Required Component: AGM_Explosives
 	class a_c_old
 	{
 		clientInit = "0 = [] spawn compile preProcessFileLineNumbers '\a_c_compat\cse_action_menu\old_style.sqf'";

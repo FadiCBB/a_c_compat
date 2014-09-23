@@ -1,7 +1,3 @@
-// Description: Compatibility layer between AGM and CSE. Includes some AGM features made availible to the CSE interaction menu.
-// I've gone ahead and put this on Github.
-
-
 class CfgPatches
 {
 	class a_c_agm_explosives
