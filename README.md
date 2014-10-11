@@ -63,14 +63,6 @@ Included components:
     Required Component: None
 
     Description: The ability to drop your backpack through the CSE menu.
-
-  - **Group Management**
-
-    Required Component: None
-
-    Description: Lets you take leadership of a group through the CSE menu.
-
-    Note: CSE added joining and leaving but not taking leadership.
       
   - **Weapon On Back**
 
