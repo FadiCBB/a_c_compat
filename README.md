@@ -75,5 +75,6 @@ Ideas for any contributers:
 
   - Making the earplugs from AGM_Hearing availible in the CSE menu?
   - Applying CSE unconscious state to AGM_GForces?
-  - Finishing logistics (menu more specifically the AGM cargo menu itself as well as the locational repair system)?
+  - Finishing AGM logistics (more specifically the AGM cargo menu itself as well as the locational repair system)?
+  - The AGM "get in" system?
   - Doing the opposite, making some CSE modules (medical, rations) availible in the AGM menu format?
