@@ -70,7 +70,7 @@ Included components:
 
     Description: Lets you place your primary weapon on your back
 
-Ideas for any contributers:
+Ideas for anyone looking to contribute:
 ---------------------------
 
   - Making the earplugs from AGM_Hearing availible in the CSE menu?
