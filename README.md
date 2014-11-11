@@ -4,16 +4,22 @@ a_c_compat
 
 Background:
 ---------------------------
-Compatibility layer between AGM (Authentic Gameplay Modification) and CSE (Combat Space Enhancement). Spun off from another project (cbb_a3_core) I maintain but without all the dependencies.
+This is a (tiny) compatibility layer between AGM (Authentic Gameplay Modification) and CSE (Combat Space Enhancement) that I maintain for the group I play with [albeit in a slightly different form]. This can be of use to others though so I've opted to throw it on Github.
 
-Because of the importance of the CSE medical menu, I've made some AGM features availible in the CSE action menu. Doesn't have to just be this way but it'd require someone elses contribution for it.
+In short, all this currently does is call some of the AGM functions through the CSE interaction menu.
 
-Not all AGM features will be covered. Again, if you want to contribute anything missing please do. That's the reason it's on Github and what not.
+Why the CSE one? The medical menu is pretty important and we've opted to use that as the primary interface.
+
+If anyone has anything they'd like to contribute, please submit a pull request and I'll test and merge it.
 
 To-do:
 ---------------------------
 
-  - 
+  - Fast Roping
+
+    Required Component: AGM_FastRoping
+
+    Description: Self explanitory. A prep version of this has been added however I haven't tested it and won't until the next stable update.
 
 Included components:
 ---------------------------
@@ -66,7 +72,7 @@ Included components:
       
   - **Weapon On Back**
 
-    Required Componenet: Note
+    Required Componenet: None
 
     Description: Lets you place your primary weapon on your back
 
@@ -77,4 +83,4 @@ Ideas for anyone looking to contribute:
   - Applying CSE unconscious state to AGM_GForces?
   - Finishing AGM logistics (more specifically the AGM cargo menu itself as well as the locational repair system)?
   - The AGM "get in" system?
-  - Doing the opposite, making some CSE modules (medical, rations) availible in the AGM menu format?
+  - Making the CSE medical system availible in the AGM interaction or flow menu?
