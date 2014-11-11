@@ -79,8 +79,20 @@ Included components:
 Ideas for anyone looking to contribute:
 ---------------------------
 
-  - Making the earplugs from AGM_Hearing availible in the CSE menu?
-  - Applying CSE unconscious state to AGM_GForces?
-  - Finishing AGM logistics (more specifically the AGM cargo menu itself as well as the locational repair system)?
-  - The AGM "get in" system?
-  - Making the CSE medical system availible in the AGM interaction or flow menu?
+  - Making the earplugs from AGM_Hearing availible in the CSE menu
+
+  - Applying CSE unconscious state to AGM_GForces
+
+  - Finishing AGM logistics (more specifically the AGM cargo menu itself as well as the locational repair system)
+
+  - The AGM "get in" system
+
+  - The AGM reload system for vehicles
+
+  - Making the CSE medical menu availible in the AGM interaction or flow menu
+
+Credits:
+---------------------------
+Really, I haven't actually done a lot of work here.
+
+The teams for both have put amazing work into their respective mods and any thanks should go to them for essentially saving Arma 3 from vanilla gameplay.
